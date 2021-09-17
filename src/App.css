@@ -1,0 +1,155 @@
+.servicemain{
+  background-image: linear-gradient(to left,yellow,green);
+background-size: cover;
+height:800px;
+}
+.videospace{
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+position:fixed;
+
+}
+.planetdiv{
+  background-image: url(./components/image/sun.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.moondiv{
+  background-image: url(./components/image/moon.jpg);
+ /* background-color: black; */
+  background-size: cover;
+  height: 700px;
+}
+.date{color:white;
+  margin-left: 43%;
+  padding-top: 10px;
+  position:fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+.navbarclass{
+  font-family: 'Open Sans', sans-serif;
+}
+.beautiful1{
+  color: rgb(22, 117, 86);
+  font-size: 25px;
+  font-family:monospace bold;
+}
+.beautiful1:hover{
+  color:rgb(76, 138, 117) ;
+}
+.solarbg{
+width: 100%;
+  height: 100%;
+}
+
+
+.solarh{
+  padding-top: 50px;
+  color: white;
+}
+.logonav{
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.navbarfont{
+  font-family: 'Permanent Marker', cursive;
+}
+.myVideo {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: 100%;
+  position:absolute;
+}
+
+.date1{
+  color: #84868b;
+  font-size: 13px;
+}
+.time1{
+  
+  font-size: 20px;
+}
+
+.navbarclass{
+ background-color:transparent;
+ width: 100%;
+}
+.homeh1{
+  padding-top: 50px;
+  color: white;
+}
+.aboutdiv{
+  background-image: linear-gradient(to left, #3C3B3F,#605C3C);
+  height: 800px;
+  opacity: 5;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel{
+  margin-bottom: 200px;
+}
+.carsldiv{
+  cursor:pointer;
+  float: left;
+  color: white;
+}
+.maincrsl{
+  background-image: url(./components/image/galaxy1.jpg);
+margin-bottom: -150px;
+}
+
+.crslh1{
+  padding: 15px;
+  color: whitesmoke;
+}
+.jup:hover{
+  color: #61dafb;
+  
+}
+.marginimg{
+margin-left: 45px;
+}
